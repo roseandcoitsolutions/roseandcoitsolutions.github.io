@@ -24,6 +24,14 @@
   <meta property="twitter:description" content="Rose&Co. IT Solutions builds reliable, user-focused digital tools for growing organizations in the Philippines." />
   <meta property="twitter:image" content="https://www.roseandcoitsolutions.com/og-image.jpg" />
 
+  <!-- Multi-language SEO -->
+  <link rel="alternate" hreflang="en" href="https://www.roseandcoitsolutions.com/?lang=en" />
+  <link rel="alternate" hreflang="vi" href="https://www.roseandcoitsolutions.com/?lang=vi" />
+  <link rel="alternate" hreflang="th" href="https://www.roseandcoitsolutions.com/?lang=th" />
+  <link rel="alternate" hreflang="ja" href="https://www.roseandcoitsolutions.com/?lang=ja" />
+  <link rel="alternate" hreflang="zh" href="https://www.roseandcoitsolutions.com/?lang=zh" />
+  <link rel="alternate" hreflang="x-default" href="https://www.roseandcoitsolutions.com/" />
+
   <!-- Structured Data (JSON-LD) -->
   <script type="application/ld+json">
   {
@@ -95,14 +103,31 @@
       </button>
 
       <nav class="nav" aria-label="Primary navigation">
-        <a href="#home">Home</a>
-        <a href="#who-we-serve">Who We Serve</a>
-        <a href="#what-we-do">What We Do</a>
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#privacy">Privacy</a>
-        <a class="nav-cta" href="#contact">Contact</a>
+        <a href="#home" data-i18n="nav_home">Home</a>
+        <a href="#who-we-serve" data-i18n="nav_who_we_serve">Who We Serve</a>
+        <a href="#what-we-do" data-i18n="nav_what_we_do">What We Do</a>
+        <a href="#projects" data-i18n="nav_projects">Projects</a>
+        <a href="#about" data-i18n="nav_about">About</a>
+        <a href="#privacy" data-i18n="nav_privacy">Privacy</a>
+        <a class="nav-cta" href="#contact" data-i18n="nav_contact">Contact</a>
       </nav>
+
+      <div class="lang-dropdown">
+        <button class="lang-drop-btn" aria-haspopup="true" aria-expanded="false">
+          <span class="current-flag">🇺🇸</span>
+          <span class="current-label">EN</span>
+          <svg class="drop-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 9l6 6 6-6" />
+          </svg>
+        </button>
+        <div class="lang-menu">
+          <button class="lang-btn" data-lang="en"><span>🇺🇸</span> English</button>
+          <button class="lang-btn" data-lang="vi"><span>🇻🇳</span> Tiếng Việt</button>
+          <button class="lang-btn" data-lang="th"><span>🇹🇭</span> ไทย</button>
+          <button class="lang-btn" data-lang="ja"><span>🇯🇵</span> 日本語</button>
+          <button class="lang-btn" data-lang="zh"><span>🇨🇳</span> 中文</button>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -110,23 +135,23 @@
     <section id="home" class="hero">
       <div class="container hero-grid">
         <div class="hero-copy reveal">
-          <p class="eyebrow">Reliable systems • Clear workflows • Long-term value</p>
-          <h1>Practical Digital Systems for Modern Businesses</h1>
-          <p class="lead">
+          <p class="eyebrow" data-i18n="hero_eyebrow">Reliable systems • Clear workflows • Long-term value</p>
+          <h1 data-i18n="hero_title">Practical Digital Systems for Modern Businesses</h1>
+          <p class="lead" data-i18n="hero_lead">
             We design and build reliable systems that help organizations manage their
             operations, improve efficiency, and stay organized—without unnecessary
             complexity.
           </p>
 
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#contact">Request a Demo</a>
-            <a class="btn btn-secondary" href="#contact">Contact Us</a>
+            <a class="btn btn-primary" href="#contact" data-i18n="hero_btn_demo">Request a Demo</a>
+            <a class="btn btn-secondary" href="#contact" data-i18n="hero_btn_contact">Contact Us</a>
           </div>
 
           <div class="hero-trust">
-            <div class="trust-pill">Business-ready systems</div>
-            <div class="trust-pill">Healthcare-aware workflows</div>
-            <div class="trust-pill">Built around your operations</div>
+            <div class="trust-pill" data-i18n="hero_trust_pill_1">Business-ready systems</div>
+            <div class="trust-pill" data-i18n="hero_trust_pill_2">Healthcare-aware workflows</div>
+            <div class="trust-pill" data-i18n="hero_trust_pill_3">Built around your operations</div>
           </div>
         </div>
 
@@ -136,7 +161,7 @@
               <span class="panel-dot"></span>
               <span class="panel-dot"></span>
               <span class="panel-dot"></span>
-              <span class="panel-title">What We Do</span>
+              <span class="panel-title" data-i18n="panel_title">What We Do</span>
             </div>
 
             <div class="cards">
@@ -147,8 +172,8 @@
                     <path d="M8 14v-4M12 14V8M16 14v-2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
                   </svg>
                 </div>
-                <h3>Business Management Systems</h3>
-                <p>Track daily operations, sales, and records in one organized platform.</p>
+                <h3 data-i18n="card_business_title">Business Management Systems</h3>
+                <p data-i18n="card_business_text">Track daily operations, sales, and records in one organized platform.</p>
               </article>
 
               <article class="card">
@@ -158,8 +183,8 @@
                     <path d="M9 10h6M9 14h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
                   </svg>
                 </div>
-                <h3>Healthcare Systems</h3>
-                <p>Manage patient records, streamline workflows, and generate prescriptions efficiently.</p>
+                <h3 data-i18n="card_healthcare_title">Healthcare Systems</h3>
+                <p data-i18n="card_healthcare_text">Manage patient records, streamline workflows, and generate prescriptions efficiently.</p>
               </article>
 
               <article class="card">
@@ -169,8 +194,8 @@
                     <path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" stroke="currentColor" stroke-width="1.6"/>
                   </svg>
                 </div>
-                <h3>Custom Solutions</h3>
-                <p>Tailored systems built around your workflow, with usability, reliability, and long-term value in mind.</p>
+                <h3 data-i18n="card_custom_title">Custom Solutions</h3>
+                <p data-i18n="card_custom_text">Tailored systems built around your workflow, with usability, reliability, and long-term value in mind.</p>
               </article>
             </div>
           </div>
@@ -183,8 +208,8 @@
     <section id="who-we-serve" class="section">
       <div class="container">
         <header class="section-head reveal">
-          <h2>Built for Growing Organizations</h2>
-          <p>
+          <h2 data-i18n="who_we_serve_title">Built for Growing Organizations</h2>
+          <p data-i18n="who_we_serve_lead">
             We work with a wide range of clients—from small businesses to larger institutions—adapting our solutions to fit their needs.
           </p>
         </header>
@@ -192,19 +217,19 @@
         <div class="features reveal">
           <div class="feature">
             <span class="feature-badge">01</span>
-            <p><strong>Clinics and Hospitals</strong><br />Structured systems for records, workflows, and day-to-day care operations.</p>
+            <p><strong data-i18n="feature_clinics_title">Clinics and Hospitals</strong><br /><span data-i18n="feature_clinics_text">Structured systems for records, workflows, and day-to-day care operations.</span></p>
           </div>
           <div class="feature">
             <span class="feature-badge">02</span>
-            <p><strong>Cafés and Retail Businesses</strong><br />Tools that help organize transactions, operations, and business visibility.</p>
+            <p><strong data-i18n="feature_retail_title">Cafés and Retail Businesses</strong><br /><span data-i18n="feature_retail_text">Tools that help organize transactions, operations, and business visibility.</span></p>
           </div>
           <div class="feature">
             <span class="feature-badge">03</span>
-            <p><strong>Schools and Training Centers</strong><br />Platforms that support student records, administration, and communication.</p>
+            <p><strong data-i18n="feature_schools_title">Schools and Training Centers</strong><br /><span data-i18n="feature_schools_text">Platforms that support student records, administration, and communication.</span></p>
           </div>
           <div class="feature">
             <span class="feature-badge">04</span>
-            <p><strong>Other Service-Based Businesses</strong><br />Flexible digital systems tailored to the needs of growing organizations.</p>
+            <p><strong data-i18n="feature_service_title">Other Service-Based Businesses</strong><br /><span data-i18n="feature_service_text">Flexible digital systems tailored to the needs of growing organizations.</span></p>
           </div>
         </div>
       </div>
@@ -213,8 +238,8 @@
     <section id="what-we-do" class="section section-alt">
       <div class="container">
         <header class="section-head reveal">
-          <h2>What We Do</h2>
-          <p>
+          <h2 data-i18n="what_we_do_title">What We Do</h2>
+          <p data-i18n="what_we_do_lead">
             We build systems that simplify day-to-day operations and give you better control over your business.
           </p>
         </header>
@@ -222,36 +247,36 @@
         <div class="project-cards reveal">
           <article class="project">
             <div class="project-top">
-              <h3>Business Management Systems</h3>
-              <span class="tag">Operations • Records • Sales</span>
+              <h3 data-i18n="card_business_title">Business Management Systems</h3>
+              <span class="tag" data-i18n="project_business_tag">Operations • Records • Sales</span>
             </div>
-            <p>
+            <p data-i18n="project_business_text">
               Track daily operations, sales, and records in one organized platform. Reduce manual work and improve accuracy.
             </p>
           </article>
 
           <article class="project">
             <div class="project-top">
-              <h3>Healthcare Systems (Clinic &amp; Hospital)</h3>
-              <span class="tag">Records • Workflow • Prescriptions</span>
+              <h3 data-i18n="card_healthcare_title">Healthcare Systems (Clinic &amp; Hospital)</h3>
+              <span class="tag" data-i18n="project_healthcare_tag">Records • Workflow • Prescriptions</span>
             </div>
-            <p>
+            <p data-i18n="project_healthcare_text">
               Manage patient records, streamline workflows, and generate prescriptions efficiently. Designed to support both small clinics and larger healthcare facilities.
             </p>
           </article>
 
           <article class="project">
             <div class="project-top">
-              <h3>Custom Solutions</h3>
-              <span class="tag">Tailored • Reliable • Scalable</span>
+              <h3 data-i18n="card_custom_title">Custom Solutions</h3>
+              <span class="tag" data-i18n="project_custom_tag">Tailored • Reliable • Scalable</span>
             </div>
-            <p>
+            <p data-i18n="project_custom_text">
               Every business operates differently. We develop systems tailored to your workflow—focused on usability, reliability, and long-term value.
             </p>
           </article>
         </div>
 
-        <p class="callout reveal">
+        <p class="callout reveal" data-i18n="what_we_do_callout">
           We build around how your organization works—not the other way around.
         </p>
       </div>
@@ -260,37 +285,37 @@
     <section id="projects" class="section">
       <div class="container">
         <header class="section-head reveal">
-          <h2>Projects &amp; Experience</h2>
-          <p>Selected work spanning creative enhancements and operational systems.</p>
+          <h2 data-i18n="projects_title">Projects &amp; Experience</h2>
+          <p data-i18n="projects_lead">Selected work spanning creative enhancements and operational systems.</p>
         </header>
 
         <div class="project-cards reveal">
           <article class="project">
             <div class="project-top">
-              <h3>Creative Website Enhancements</h3>
-              <span class="tag">WordPress • UX • Interactivity</span>
+              <h3 data-i18n="project_kang_title">Creative Website Enhancements</h3>
+              <span class="tag" data-i18n="project_kang_tag">WordPress • UX • Interactivity</span>
             </div>
             <p>
-              We developed custom features for the website of up-and-coming children’s book author B.R. Kang,
-              creator of
-              <a href="https://www.caputmundibooks.com/" target="_blank" rel="noopener noreferrer">Caput Mundi</a>,
-              including:
+              <span data-i18n="project_kang_text_1">We developed custom features for the website of up-and-coming children’s book author B.R. Kang,
+              creator of</span>
+              <a href="https://www.caputmundibooks.com/" target="_blank" rel="noopener noreferrer">Caput Mundi</a><span data-i18n="project_kang_text_2">,
+              including:</span>
             </p>
             <ul>
-              <li>Custom login functionality using WordPress</li>
-              <li>Interactive map access</li>
-              <li>Contact form enhancements</li>
-              <li>Animated widgets to improve user engagement</li>
+              <li data-i18n="project_kang_li_1">Custom login functionality using WordPress</li>
+              <li data-i18n="project_kang_li_2">Interactive map access</li>
+              <li data-i18n="project_kang_li_3">Contact form enhancements</li>
+              <li data-i18n="project_kang_li_4">Animated widgets to improve user engagement</li>
             </ul>
           </article>
 
           <article class="project">
             <div class="project-top">
-              <h3>Educational Systems</h3>
-              <span class="tag">Admin Tools • Records • Workflows</span>
+              <h3 data-i18n="project_educational_title">Educational Systems</h3>
+              <span class="tag" data-i18n="project_educational_tag">Admin Tools • Records • Workflows</span>
             </div>
             <p>
-              We developed a school management system for
+              <span data-i18n="project_educational_text_1">We developed a school management system for</span>
               <a
                 href="https://www.facebook.com/share/1Dy7UEtcXU/?mibextid=wwXIfr"
                 target="_blank"
@@ -298,9 +323,9 @@
               >
                 Sola Gratia Child Development and Learning Center
               </a>
-              designed to support administrative workflows, student records, and daily operations. 
+              <span data-i18n="project_educational_text_2">designed to support administrative workflows, student records, and daily operations.</span>
             </p>
-            <p>
+            <p data-i18n="project_educational_text_3">
               The system is deployed on a local network, as requested by the school administration, and runs entirely on an internal intranet (offline).
             </p>
             
@@ -312,18 +337,18 @@
     <section id="privacy" class="section section-alt">
       <div class="container">
         <header class="section-head reveal">
-          <h2>Data Privacy &amp; Security</h2>
-          <p>Your Data, Protected and Respected</p>
+          <h2 data-i18n="privacy_title">Data Privacy &amp; Security</h2>
+          <p data-i18n="privacy_lead">Your Data, Protected and Respected</p>
         </header>
 
         <div class="privacy-card reveal">
-          <p>
+          <p data-i18n="privacy_text_1">
             We understand that your data is critical—especially for healthcare and business operations.
           </p>
-          <p>
+          <p data-i18n="privacy_text_2">
             Our systems are built with data privacy and security in mind, following best practices to protect sensitive information.
           </p>
-          <p>
+          <p data-i18n="privacy_text_3">
             You can operate with confidence knowing your records are handled with care, responsibility, and proper safeguards.
           </p>
         </div>
@@ -333,21 +358,21 @@
     <section id="ownership" class="section">
       <div class="container">
         <header class="section-head reveal">
-          <h2>Ownership &amp; Flexibility</h2>
-          <p>No lock-in. No dependency. The system is fully yours.</p>
+          <h2 data-i18n="ownership_title">Ownership &amp; Flexibility</h2>
+          <p data-i18n="ownership_lead">No lock-in. No dependency. The system is fully yours.</p>
         </header>
 
         <div class="split reveal">
           <div class="split-card">
-            <h3>Full Ownership</h3>
-            <p>
+            <h3 data-i18n="ownership_full_title">Full Ownership</h3>
+            <p data-i18n="ownership_full_text">
               Unlike many platforms that lock you into subscriptions, we give you full ownership of your system.
             </p>
           </div>
 
           <div class="split-card">
-            <h3>Ongoing Support, Without Lock-In</h3>
-            <p>
+            <h3 data-i18n="ownership_support_title">Ongoing Support, Without Lock-In</h3>
+            <p data-i18n="ownership_support_text">
               We simply provide ongoing support, updates, and additional features at a reasonable and transparent cost—based on your needs.
             </p>
           </div>
@@ -356,15 +381,15 @@
         <div class="features reveal">
           <div class="feature">
             <span class="feature-badge">✓</span>
-            <p><strong>You own the system</strong></p>
+            <p><strong data-i18n="ownership_check_1">You own the system</strong></p>
           </div>
           <div class="feature">
             <span class="feature-badge">✓</span>
-            <p><strong>You have access to your data</strong></p>
+            <p><strong data-i18n="ownership_check_2">You have access to your data</strong></p>
           </div>
           <div class="feature">
             <span class="feature-badge">✓</span>
-            <p><strong>You can request enhancements anytime</strong></p>
+            <p><strong data-i18n="ownership_check_3">You can request enhancements anytime</strong></p>
           </div>
         </div>
       </div>
@@ -373,34 +398,34 @@
     <section id="why-us" class="section section-alt">
       <div class="container">
         <header class="section-head reveal">
-          <h2>Why Work With Us</h2>
-          <p>Clear, practical, and built for real operations.</p>
+          <h2 data-i18n="why_us_title">Why Work With Us</h2>
+          <p data-i18n="why_us_lead">Clear, practical, and built for real operations.</p>
         </header>
 
         <div class="features reveal">
           <div class="feature">
             <span class="feature-badge">01</span>
-            <p><strong>Clear and practical approach</strong></p>
+            <p><strong data-i18n="why_us_feature_1">Clear and practical approach</strong></p>
           </div>
           <div class="feature">
             <span class="feature-badge">02</span>
-            <p><strong>Systems designed for real-world use</strong></p>
+            <p><strong data-i18n="why_us_feature_2">Systems designed for real-world use</strong></p>
           </div>
           <div class="feature">
             <span class="feature-badge">03</span>
-            <p><strong>Scalable—from small teams to large organizations</strong></p>
+            <p><strong data-i18n="why_us_feature_3">Scalable—from small teams to large organizations</strong></p>
           </div>
           <div class="feature">
             <span class="feature-badge">04</span>
-            <p><strong>Strong focus on data privacy and reliability</strong></p>
+            <p><strong data-i18n="why_us_feature_4">Strong focus on data privacy and reliability</strong></p>
           </div>
           <div class="feature">
             <span class="feature-badge">05</span>
-            <p><strong>Full system ownership for clients</strong></p>
+            <p><strong data-i18n="why_us_feature_5">Full system ownership for clients</strong></p>
           </div>
           <div class="feature">
             <span class="feature-badge">06</span>
-            <p><strong>Affordable maintenance and upgrades</strong></p>
+            <p><strong data-i18n="why_us_feature_6">Affordable maintenance and upgrades</strong></p>
           </div>
         </div>
       </div>
@@ -409,28 +434,28 @@
     <section id="about" class="section">
       <div class="container">
         <header class="section-head reveal">
-          <h2>About Rose &amp; Co. I.T. Solutions</h2>
-          <p>Practical systems built to support the way organizations actually work.</p>
+          <h2 data-i18n="about_title">About Rose &amp; Co. I.T. Solutions</h2>
+          <p data-i18n="about_lead">Practical systems built to support the way organizations actually work.</p>
         </header>
 
         <div class="split reveal">
           <div class="split-card">
-            <h3>What We Believe</h3>
-            <p>
+            <h3 data-i18n="about_believe_title">What We Believe</h3>
+            <p data-i18n="about_believe_text">
               Rose &amp; Co. I.T. Solutions helps organizations improve how they manage their daily operations through well-designed digital systems.
             </p>
           </div>
 
           <div class="split-card">
-            <h3>How We Build</h3>
-            <p>
+            <h3 data-i18n="about_build_title">How We Build</h3>
+            <p data-i18n="about_build_text">
               We believe technology should make work easier—not more complicated. That’s why we focus on building solutions that are structured, reliable, and easy to use.
             </p>
           </div>
         </div>
 
         <div class="privacy-card reveal" style="margin-top:16px;">
-          <p>
+          <p data-i18n="about_bottom_text">
             Our approach is simple: deliver systems that are practical today and scalable for the future.
           </p>
         </div>
@@ -441,13 +466,13 @@
       <div class="container">
         <div class="privacy-card reveal" style="text-align:center;">
           <header class="section-head" style="margin-bottom:12px;">
-            <h2>Let’s Build Something That Works for You</h2>
-            <p>Tell us about your business, and we’ll recommend a solution that fits your needs.</p>
+            <h2 data-i18n="cta_title">Let’s Build Something That Works for You</h2>
+            <p data-i18n="cta_lead">Tell us about your business, and we’ll recommend a solution that fits your needs.</p>
           </header>
 
           <div class="hero-actions" style="justify-content:center;">
-            <a class="btn btn-primary" href="#contact">Contact Us</a>
-            <a class="btn btn-secondary" href="#contact">Request a Demo</a>
+            <a class="btn btn-primary" href="#contact" data-i18n="cta_btn_contact">Contact Us</a>
+            <a class="btn btn-secondary" href="#contact" data-i18n="cta_btn_demo">Request a Demo</a>
           </div>
         </div>
       </div>
@@ -456,17 +481,17 @@
     <section id="contact" class="section">
       <div class="container">
         <header class="section-head reveal">
-          <h2>Contact</h2>
-          <p>Let’s work together.</p>
+          <h2 data-i18n="contact_title">Contact</h2>
+          <p data-i18n="contact_lead">Let’s work together.</p>
         </header>
 
         <div class="contact-grid reveal">
           <div class="contact-card">
-            <h3>Details</h3>
+            <h3 data-i18n="contact_card_title">Details</h3>
             <ul class="contact-list">
-              <li><span>Email</span> <strong>rose@roseandcoitsolutions.com</strong></li>
-              <li><span>Phone / WhatsApp / Viber</span> <strong>+63 927 175 4611</strong></li>
-              <li><span>Location</span> <strong>Philippines</strong></li>
+              <li><span data-i18n="contact_email">Email</span> <strong>rose@roseandcoitsolutions.com</strong></li>
+              <li><span data-i18n="contact_phone">Phone / WhatsApp / Viber</span> <strong>+63 927 175 4611</strong></li>
+              <li><span data-i18n="contact_location">Location</span> <strong data-i18n="contact_philippines">Philippines</strong></li>
             </ul>
           </div>
         </div>
@@ -478,10 +503,9 @@
     <div class="container footer-inner">
       <div class="footer-brand">
         <img class="footer-logo" src="assets/roseandco-logo.png" alt="Rose&Co. IT Solutions logo" />
-        <p>© 2026 Rose&Co. I.T. Solutions. All rights reserved.</p>
-      <!-- </div>
-      <a href="#home" class="footer-link">Back to top ↑</a>
-    </div> -->
+        <p data-i18n="footer_rights">© 2026 Rose&Co. I.T. Solutions. All rights reserved.</p>
+      </div>
+    </div>
   </footer>
 
   <button class="to-top" aria-label="Back to top">

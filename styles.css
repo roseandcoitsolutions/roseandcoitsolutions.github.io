@@ -136,6 +136,108 @@
     border-color: rgba(180,138,148,0.35);
   }
   
+  /* Language Dropdown */
+  .lang-dropdown {
+    position: relative;
+    margin-left: 14px;
+  }
+  .lang-drop-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(15,30,61,0.12);
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-family: inherit;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--primary);
+    cursor: pointer;
+    transition: all 0.25s ease;
+  }
+  .lang-drop-btn:hover {
+    background: rgba(255, 255, 255, 0.9);
+    border-color: var(--accent);
+  }
+  .drop-icon {
+    width: 14px;
+    height: 14px;
+    transition: transform 0.25s ease;
+  }
+  .lang-dropdown.open .drop-icon {
+    transform: rotate(180deg);
+  }
+  .lang-menu {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(15,30,61,0.1);
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    padding: 8px;
+    min-width: 150px;
+    display: none;
+    flex-direction: column;
+    z-index: 1100;
+    animation: slideDown 0.3s ease;
+  }
+  @keyframes slideDown {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .lang-dropdown.open .lang-menu {
+    display: flex;
+  }
+  .lang-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    border: none;
+    background: transparent;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--primary);
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.2s ease;
+  }
+  .lang-btn:hover {
+    background: rgba(15,30,61,0.05);
+    color: var(--accent);
+  }
+  .lang-btn.active {
+    background: rgba(15,30,61,0.08);
+    font-weight: 700;
+  }
+  .lang-btn span {
+    font-size: 1.2rem;
+  }
+
+  /* Mobile adjustments */
+  @media (max-width: 760px) {
+    .header-inner { flex-wrap: wrap; }
+    .lang-dropdown {
+      order: 3;
+      width: 100%;
+      margin-left: 0;
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(15,30,61,0.05);
+      display: flex;
+      justify-content: center;
+    }
+    .lang-menu {
+      right: 50%;
+      transform: translateX(50%);
+    }
+  }
+  
   /* Mobile nav */
   .nav-toggle{
     display:none;
