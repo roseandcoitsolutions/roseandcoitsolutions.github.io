@@ -58,7 +58,7 @@ document.getElementById("fakeSend")?.addEventListener("click", () => {
  */
 class I18nManager {
   constructor() {
-    this.languages = ['en', 'vi', 'th', 'ja', 'zh'];
+    this.languages = ['en', 'vi', 'th', 'ja', 'zh', 'ko', 'fil'];
     this.defaultLang = 'en';
     this.currentLang = this.getInitialLanguage();
     this.translations = {};
