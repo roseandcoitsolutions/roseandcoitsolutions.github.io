@@ -113,8 +113,15 @@
 
   "footer_rights": "© 2026 Rose&Co. I.T. Solutions. All rights reserved.",
 
-  "testimonials_title": "What Our Clients Say",
+  "testimonials_title": "お客様の声",
   "testimonial_1_text": "“As an author and blogger managing multiple websites, working with Rose & Co IT Solutions has been game-changing. I’m not always able to explain things in technical terms, but they have a way of understanding what I need and turning my ideas into something real. It's incredibly exciting to see a concept or feature you’ve imagined come to life in a way that’s not only functional, but also clean and intuitive to use. They’re quick, reliable, and truly care about getting everything just right. It’s always a pleasure working with them.”",
   "testimonial_1_author": "B.R. Kang",
-  "testimonial_1_title": "Author & Blogger"
+  "testimonial_1_title": "Author & Blogger",
+  "nav_products": "プロダクト",
+  "products_title": "当社のプロダクト",
+  "products_lead": "成長を支援するために設計された、すぐに使えるデジタルツール。",
+  "product_kitako_title": "KitaKoアプリ – フィリピンのオンライン販売者向けビジネス管理ツール",
+  "product_kitako_tag": "ビジネス管理ツール • オンライン販売者 • フィリピン",
+  "product_kitako_text": "KitaKoは、フィリピンのオンライン販売者向けのモバイルビジネス管理ツールです。タグリッシュ（タガログ語と英語の混交）インターフェースを採用し、売上や経費の管理をシンプルかつ直感的に行えるようにしています。Rose&Coによって開発されたこのアプリは、スプレッドシートやノートに頼ることなく、起業家が日々の業績を追跡するのを支援します。<br><br>現地の販売行動に合わせて構築されたKitaKoは、記録保持を効率化し、財務意識を高め、よりスマートなビジネス上の意思決定を可能にします。",
+  "product_kitako_btn": "KitaKoアプリを見る"
 }

@@ -113,8 +113,15 @@
 
   "footer_rights": "© 2026 Rose&Co. I.T. Solutions. Bảo lưu mọi quyền.",
 
-  "testimonials_title": "What Our Clients Say",
+  "testimonials_title": "Khách hàng nói gì về chúng tôi",
   "testimonial_1_text": "“As an author and blogger managing multiple websites, working with Rose & Co IT Solutions has been game-changing. I’m not always able to explain things in technical terms, but they have a way of understanding what I need and turning my ideas into something real. It's incredibly exciting to see a concept or feature you’ve imagined come to life in a way that’s not only functional, but also clean and intuitive to use. They’re quick, reliable, and truly care about getting everything just right. It’s always a pleasure working with them.”",
   "testimonial_1_author": "B.R. Kang",
-  "testimonial_1_title": "Author & Blogger"
+  "testimonial_1_title": "Author & Blogger",
+  "nav_products": "Sản phẩm",
+  "products_title": "Sản phẩm của Chúng tôi",
+  "products_lead": "Các công cụ kỹ thuật số sẵn sàng sử dụng được thiết kế để giúp bạn phát triển.",
+  "product_kitako_title": "Ứng dụng KitaKo – Công cụ theo dõi kinh doanh cho người bán hàng trực tuyến tại Philippines",
+  "product_kitako_tag": "Theo dõi kinh doanh • Người bán hàng trực tuyến • Philippines",
+  "product_kitako_text": "KitaKo là một công cụ theo dõi kinh doanh trên di động dành cho người bán hàng trực tuyến tại Philippines, có giao diện bằng tiếng Taglish giúp quản lý doanh số và chi phí một cách đơn giản và trực quan. Được phát triển bởi Rose&Co, nó giúp các doanh nhân theo dõi hiệu suất hàng ngày mà không cần dựa vào bảng tính hay sổ tay. <br><br> Được xây dựng dựa trên hành vi bán hàng tại địa phương, KitaKo tinh giản việc lưu trữ hồ sơ, cải thiện nhận thức về tài chính và cho phép đưa ra các quyết định kinh doanh thông minh hơn.",
+  "product_kitako_btn": "Truy cập ứng dụng KitaKo"
 }

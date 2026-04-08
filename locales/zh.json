@@ -113,8 +113,15 @@
 
   "footer_rights": "© 2026 Rose&Co. I.T. Solutions. 保留所有权利。",
 
-  "testimonials_title": "What Our Clients Say",
+  "testimonials_title": "客户评价",
   "testimonial_1_text": "“As an author and blogger managing multiple websites, working with Rose & Co IT Solutions has been game-changing. I’m not always able to explain things in technical terms, but they have a way of understanding what I need and turning my ideas into something real. It's incredibly exciting to see a concept or feature you’ve imagined come to life in a way that’s not only functional, but also clean and intuitive to use. They’re quick, reliable, and truly care about getting everything just right. It’s always a pleasure working with them.”",
   "testimonial_1_author": "B.R. Kang",
-  "testimonial_1_title": "Author & Blogger"
+  "testimonial_1_title": "Author & Blogger",
+  "nav_products": "产品",
+  "products_title": "我们的产品",
+  "products_lead": "旨在帮助您成长、即插即用的数字工具。",
+  "product_kitako_title": "KitaKo App – 菲律宾在线卖家的业务追踪器",
+  "product_kitako_tag": "业务追踪器 • 在线卖家 • 菲律宾",
+  "product_kitako_text": "KitaKo 是一款面向菲律宾在线卖家的移动业务追踪器，具有 Taglish 界面，使销售和支出管理变得简单直观。由 Rose&Co 开发，它可以帮助企业家追踪每日业绩，而无需依赖电子表格或笔记本。<br><br>KitaKo 围绕当地的销售行为构建，简化了记录保存，提高了财务意识，并能助力做出更明智的业务决策。",
+  "product_kitako_btn": "访问 KitaKo App"
 }
