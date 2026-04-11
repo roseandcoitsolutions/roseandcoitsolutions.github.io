@@ -1,7 +1,7 @@
 {
   "seo_title": "Custom Software Development & School Management Systems | Rose&Co. IT Solutions",
   "seo_description": "Reliable, user-focused digital tools and custom software development for growing organizations in the Philippines. Specialize in school management systems and web/mobile apps.",
-  "seo_keywords": "Custom Software Development Philippines, School Management System, IT Solutions Philippines, Web Development, Mobile Apps",
+  "seo_keywords": "Custom Software Development Philippines, School Management System, IT Solutions Philippines, Web Development, Mobile Apps, Spa Management System, ZenSys, Salon Management System",
   
   "nav_home": "Home",
   "nav_who_we_serve": "Who We Serve",
@@ -123,5 +123,9 @@
   "product_kitako_title": "KitaKo App – Business Tracker for Filipino Online Sellers",
   "product_kitako_tag": "Business Tracker • Online Sellers • Philippines",
   "product_kitako_text": "KitaKo is a mobile business tracker for Filipino online sellers, featuring a Taglish interface that makes managing sales and expenses simple and intuitive. Developed by Rose&Co, it helps entrepreneurs track daily performance without relying on spreadsheets or notebooks. <br><br> Built around local selling behaviors, KitaKo streamlines record-keeping, improves financial awareness, and enables smarter business decisions.",
-  "product_kitako_btn": "Visit KitaKo App"
+  "product_kitako_btn": "Visit KitaKo App",
+  "product_zensys_title": "ZenSys App – Management System for Spa Owners",
+  "product_zensys_tag": "Business Management • Spas & Salons • Philippines",
+  "product_zensys_text": "ZenSys is a cloud-based management platform designed specifically for spa owners to streamline operations and replace manual tracking. It provides real-time oversight of sales, staff, and bookings directly from your smartphone. <br><br> Built for MSMEs, ZenSys helps owners eliminate discrepancies, monitor therapist availability, and manage their business remotely with an interface as intuitive as social media.",
+  "product_zensys_btn": "Visit ZenSys App"
 }
